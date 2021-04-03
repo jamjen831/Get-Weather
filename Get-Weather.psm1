@@ -1,12 +1,8 @@
 ﻿function Get-WeatherData {
-    $cityID = "5393052" 
-    #Write-Host $cityID
-    $apiKey =  "e28110e8c1c5f11fcb929def472de104" 
-    #Write-Host $apiKey
+    $cityID = "Your City ID" 
+    $apiKey =  "YOurAPI Key" 
     $callURL = "http://api.openweathermap.org/data/2.5/weather?id=$cityID&units=imperial&mode=html&appid=$apiKey" 
-    #Write-Host $callURL
     $script:html = Invoke-RestMethod -UseBasicParsing "$callURL" 
-    #Write-Host $html
    } 
 
    function ConvertHtml-ToText {
