@@ -6,7 +6,7 @@
    } 
 
    function ConvertHtml-ToText {
- #Credit to Winston from with slight modifications
+ #Credit to Winston from with below url with slight modifications
  #http://winstonfassett.com/blog/2010/09/21/html-to-text-conversion-in-powershell/
  param([System.String] $html)
 
@@ -52,13 +52,10 @@
 
  #Remove degree symbol
  $html = $html -replace "°",""
- 
  #remove extra lines
  $html = $html -replace '\n+', ""
  #remove spaces
  $html = $html -replace '\s+'," "
- #$html = $html -replace '\s+',''
- #$html = $html -replace '(^\s+|\s+$)','' -replace '\s+',' ' 
  return $html
 
 }
