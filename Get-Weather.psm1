@@ -6,7 +6,7 @@
    } 
 
    function ConvertHtml-ToText {
- #Credit to Winston from with below url with slight modifications
+ #Credit to Winston (url below) with slight modifications
  #http://winstonfassett.com/blog/2010/09/21/html-to-text-conversion-in-powershell/
  param([System.String] $html)
 
