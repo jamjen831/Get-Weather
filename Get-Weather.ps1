@@ -1,7 +1,7 @@
 ﻿#Place this and Get-Weather.psm1 Module into C:\Scripts or modify $modPath value to point to the module.
 #Run via Task Scheduler on a daily schedule re-ran every 5 minutes.
 #Import the Module from file
-$modPath = C:\Scripts\Get-Weather.psm1
+$modPath = "C:\Scripts\Get-Weather.psm1"
 Import-Module $modPath
 #Set inital timer to zer0
 $timer = 0
