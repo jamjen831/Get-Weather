@@ -12,6 +12,3 @@ While($timer -lt 290){
     $timer = ($timer + $pollSec)
     Start-Sleep -Seconds $pollSec
     } 
-	
-	
-	
