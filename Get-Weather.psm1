@@ -6,7 +6,7 @@ function Get-Weather {
     $units = "imperial"
     $callURL = "http://api.openweathermap.org/data/2.5/weather?id=$cityID&units=$units&appid=$apiKey"      
     
-    #Fet the data, process the raw data as JSON, then turn it into an object
+    #Get the data, process the raw data as JSON, then turn it into an object
     $initalJson = Invoke-RestMethod -UseBasicParsing "$callURL"
     $weatherData = ConvertTo-Json $initalJson | ConvertFrom-Json 
         
