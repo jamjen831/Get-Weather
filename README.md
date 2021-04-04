@@ -2,7 +2,7 @@
 
 Get OpenWeather info for BlueIris Overlay (or anything that want's a text file) 
 
-Currenlty using / moifiying HTML data but working on properly parsing the default JSON to be able to better manage the data
+Now using default JSON, allowing for getting more data and easier manipulation.  Older HTML version preserved as htm-old.psm1 file
 
 Steps:
 
