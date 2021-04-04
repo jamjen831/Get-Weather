@@ -54,5 +54,5 @@ Steps:
 
            k. Save (you will likely be prompted for a username and password, this will be used to run the task
 
-    8.Check the temperature.txt to make sure it's being updated
+    8.Check the temperature.txt to make sure it's being updated.  If not, check the persmissions for the file, as BI tools likes to lock write permissions.
 
