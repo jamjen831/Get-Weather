@@ -1,6 +1,6 @@
 # Get-Weather
 
-Get OpenWeather info for BlueIris Overlay or anything that wants a text file.  It should be pertty straight forward to modify the module to get other fields or polling options.  The module is now using the default JSON, allowing for polling additonal data.  Older HTML version preserved as Get-Weather-hmtl_old.psm1 file
+Get OpenWeatherMap info for BlueIris Overlay or anything that wants a text file.  It should be pertty straight forward to modify the module to get other fields or polling options.  The module is now using the default JSON, allowing for polling additonal data.  Older HTML version preserved as Get-Weather-hmtl_old.psm1 file
 
 Steps:
 
