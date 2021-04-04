@@ -1,3 +1,5 @@
+#Module to poll OpenWeatherMaps API and create a plain-text file with local weather data that can be consumed by other applications (Blue Iris \ BI Tools)
+
 function Get-Weather {
     #Set City, API Key and units
     #Create the query URL for our weather Data
