@@ -26,7 +26,7 @@ Steps:
 
        Run command "Set-ExecutionPolicy -Unrestricted
 
-        6. Edit Get-Weather.ps1
+    6. Edit Get-Weather.ps1
 
            a. Set $cityID to the City ID 
 
