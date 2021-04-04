@@ -6,7 +6,7 @@ Import-Module $modPath
 #Set inital timer to zero and Polling time, in seconds
 $timer = 0
 $pollSec = 10
-#Check timer is under 4min 50sec, run Get-Weather module and add 10 seconds to the timer. 
+#Check if the timer is under 4min 50sec, run Get-Weather module and add 10 seconds to the timer. 
 While($timer -lt 290){
     Get-Weather
     $timer = ($timer + $pollSec)
