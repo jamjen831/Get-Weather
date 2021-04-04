@@ -1,0 +1,1 @@
+New-Item -ItemType SymbolicLink -Path c:\Scripts\Git -Target C:\Users\<username>\Documents\Git\Get-Weather
