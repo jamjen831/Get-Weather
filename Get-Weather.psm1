@@ -1,7 +1,7 @@
 ﻿ function Get-Weather {
     #Set City, API Key and units
-    $cityID = "5393052" 
-    $apiKey =  "e28110e8c1c5f11fcb929def472de104" 
+    $cityID = "yourCityID" 
+    $apiKey =  "yourAPIKey" 
     $units = "imperial"
     $callURL = "http://api.openweathermap.org/data/2.5/weather?id=$cityID&units=$units&appid=$apiKey"      
     
