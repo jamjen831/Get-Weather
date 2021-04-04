@@ -3,7 +3,7 @@
 #Import the Module from file
 $modPath = "C:\Scripts\Get-Weather.psm1"
 Import-Module $modPath
-#Set inital timer to zer0
+#Set inital timer to zero
 $timer = 0
 $pollSec = 10
 #Check timer is under 4min 50sec, run Get-Weather module and add 10 seconds to the timer. 
