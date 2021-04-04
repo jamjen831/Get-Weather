@@ -6,11 +6,11 @@
     $units = "imperial"
     $callURL = "http://api.openweathermap.org/data/2.5/weather?id=$cityID&units=$units&appid=$apiKey"      
     
-    #get the data, process the raw data as JSON, then turn it into an object
+    #Fet the data, process the raw data as JSON, then turn it into an object
     $initalJson = Invoke-RestMethod -UseBasicParsing "$callURL"
     $weatherData = ConvertTo-Json $initalJson | ConvertFrom-Json 
         
-    #set weather variables from the wather object
+    #Set weather variables from the weatherData object
     $Lat = $weatherData.coord.lat
     $Lon = $weatherData.coord.lon
     $realTemp = $weatherData.main.temp
