@@ -7,8 +7,8 @@
     
     #get the data and convert
     $initalJson = Invoke-RestMethod -UseBasicParsing "$callURL"
-    $weatherData = ConvertTo-Json $initalJson | ConvertFrom-Json | Out-Host
-    
+    $weatherData = ConvertTo-Json $initalJson | ConvertFrom-Json 
+        
     #set weather variables from the polled data
     $Lat = $weatherData.coord.lat
     $Lon = $weatherData.coord.lon
