@@ -22,7 +22,7 @@ Steps:
 
        Open Powershell As Admin
 
-       Run command "Set-ExecutionPolicy -Unrestricted
+       Run command "Set-ExecutionPolicy -Unrestricted"
 
     6. Edit Get-Weather.psm1
 
