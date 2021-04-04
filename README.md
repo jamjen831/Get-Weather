@@ -12,7 +12,7 @@ Steps:
 
     2. Copy the API key (sent via email when ready)
 
-    3. Find your locations "CityID". Easier way is to search for your city and then the ID from the 
+    3. Find your locations "CityID" by searching OpenWeatherMap.  City ID can be found in the url for your Cities current weather conditions  
 
     4. Grab the current scripts from here and place in C:\Scripts (or elsewhere and update paths in the script) :
 
