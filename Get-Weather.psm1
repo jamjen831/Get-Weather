@@ -1,4 +1,4 @@
-﻿ function Get-Weather {
+function Get-Weather {
     #Set City, API Key and units
     #Create the query URL for our weather Data
     $cityID = "yourCityID" 
