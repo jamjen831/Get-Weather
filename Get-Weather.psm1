@@ -26,7 +26,7 @@
     $locName = $weatherData.name 
     
     #Set Output, which variables to include and make the text file
-    $outPath = "c:\temp\test.txt" #"C:\Program Files (x86)\Blue Iris Tools\txt\temperature.txt"
+    $outPath = "C:\Program Files (x86)\Blue Iris Tools\txt\temperature.txt"
     $weatherTxt = "$locName Temp:$realTempF Humidity:$hum% Cloud:$cldPrct% Pressure:$pres hpa" | Out-File -FilePath $outPath -Force -Encoding ascii
   }
   
