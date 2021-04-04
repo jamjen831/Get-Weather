@@ -28,7 +28,7 @@ Steps:
 
            a. Set $cityID to the City ID 
 
-           b. Set $ apiKey with your API key 
+           b. Set $apiKey with your API key 
 
     7. Setup Windows Scheduled Task to run every 5 minutes:
 
