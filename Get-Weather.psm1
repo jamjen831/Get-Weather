@@ -29,7 +29,7 @@ function Get-Weather {
     $locName = $weatherData.name 
     
     #Set Output Path 
-    #Select which variables and static text to include and write the text file
+    #Select which variables and static text to include, then write the text to file
     $outPath = "C:\Program Files (x86)\Blue Iris Tools\txt\temperature.txt"
     $weatherTxt = "$locName Temp:$realTemp F Humidity:$hum% Cloud:$cldPrct% Pressure:$pres hpa" | Out-File -FilePath $outPath -Force -Encoding ascii
   }
